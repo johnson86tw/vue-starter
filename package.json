@@ -1,0 +1,27 @@
+{
+	"name": "vue-starter",
+	"private": true,
+	"version": "0.0.0",
+	"description": "",
+	"repository": "https://github.com/johnson86tw/vue-starter",
+	"author": "Johnson Chen <https://twitter.com/johnson86tw>",
+	"license": "GPL-3.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"typecheck": "vue-tsc -b",
+		"format": "prettier --write \"**/*.{vue,ts,js,json}\""
+	},
+	"dependencies": {
+		"vue": "^3.4.29"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.0.5",
+		"typescript": "^5.2.2",
+		"vite": "^5.3.1",
+		"vue-tsc": "^2.0.21",
+		"prettier": "^3.2.5"
+	}
+}
