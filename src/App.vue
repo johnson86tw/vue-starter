@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-	<div>vue-starter</div>
+	<div class="text-teal-500">vue-starter</div>
 </template>
 
 <style lang="scss"></style>
