@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-	<div class="text-teal-500">vue-starter</div>
+	<div>
+		<router-view />
+	</div>
 </template>
 
 <style lang="scss"></style>

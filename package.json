@@ -15,9 +15,11 @@
 		"format": "prettier --write \"**/*.{vue,ts,js,json}\""
 	},
 	"dependencies": {
-		"vue": "^3.4.29"
+		"vue": "^3.4.29",
+		"vue-router": "4"
 	},
 	"devDependencies": {
+		"@types/node": "^22.3.0",
 		"@vitejs/plugin-vue": "^5.0.5",
 		"autoprefixer": "^10.4.20",
 		"postcss": "^8.4.41",
